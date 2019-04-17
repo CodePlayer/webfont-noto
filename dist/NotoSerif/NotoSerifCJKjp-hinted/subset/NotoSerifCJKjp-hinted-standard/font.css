@@ -1,0 +1,64 @@
+/* Noto Serif CJK JP */
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 400;
+    src: local('☺'),
+         url('NotoSerifCJKjp-Regular.woff2') format('woff2'),
+         url('NotoSerifCJKjp-Regular.woff') format('woff'),
+         url('NotoSerifCJKjp-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 200;
+    src: local('☺'),
+         url('NotoSerifCJKjp-ExtraLight.woff2') format('woff2'),
+         url('NotoSerifCJKjp-ExtraLight.woff') format('woff'),
+         url('NotoSerifCJKjp-ExtraLight.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 300;
+    src: local('☺'),
+         url('NotoSerifCJKjp-Light.woff2') format('woff2'),
+         url('NotoSerifCJKjp-Light.woff') format('woff'),
+         url('NotoSerifCJKjp-Light.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 500;
+    src: local('☺'),
+         url('NotoSerifCJKjp-Medium.woff2') format('woff2'),
+         url('NotoSerifCJKjp-Medium.woff') format('woff'),
+         url('NotoSerifCJKjp-Medium.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 600;
+    src: local('☺'),
+         url('NotoSerifCJKjp-SemiBold.woff2') format('woff2'),
+         url('NotoSerifCJKjp-SemiBold.woff') format('woff'),
+         url('NotoSerifCJKjp-SemiBold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    src: local('☺'),
+         url('NotoSerifCJKjp-Bold.woff2') format('woff2'),
+         url('NotoSerifCJKjp-Bold.woff') format('woff'),
+         url('NotoSerifCJKjp-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif CJK JP';
+    font-style: normal;
+    font-weight: 900;
+    src: local('☺'),
+         url('NotoSerifCJKjp-Black.woff2') format('woff2'),
+         url('NotoSerifCJKjp-Black.woff') format('woff'),
+         url('NotoSerifCJKjp-Black.otf') format('opentype');
+}
