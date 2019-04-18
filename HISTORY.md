@@ -4,6 +4,7 @@
 - Edit typo   
 - Fixed container stylesheet   
 - Edit Download link
+- Fixed file path
 
 
 ## v1.0.0   
