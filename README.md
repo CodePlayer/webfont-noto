@@ -3,7 +3,7 @@
 ![Screenshot](screenshot.png)   
 
 ## Description   
-Noto Sans CJK and Serif CJK subset fonts (sc, tc, jp, and kr). The tag of the Noto font is v2017-06-01.   
+Noto Sans CJK and Serif CJK subset fonts (sc, tc, jp, and kr). The tag of the Noto font is [v2017-06-01](https://github.com/googlefonts/noto-cjk/releases).   
 
 
 ## Demo   
@@ -155,7 +155,7 @@ font-family: 'Noto Sans CJK JP', serif;
 
 
 ## License   
-[SIL OPEN FONT LICENSE](LICENSE)   
+Noto Subset fonts are licensed under the [SIL OPEN FONT LICENSE](LICENSE), Version 1.1.   
 
 
 ## Reference   
