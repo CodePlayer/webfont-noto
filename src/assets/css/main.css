@@ -1,0 +1,90 @@
+/* typography */
+body { font-family: 'Noto Sans', sans-serif; font-weight: 200; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height: 1.2; }
+h2, h3 { text-align: center; }
+h1, .display-1 { font-size: 12rem; }
+h2, .display-2 { font-size: 9rem; margin-bottom: 1.6rem; font-weight: 900; }
+h3, .display-3 { font-size: 4rem; margin-bottom: 1rem; font-weight: 700; }
+h4, .display-4 { font-size: 3rem; }
+h5, .display-5 { font-size: 2rem; }
+h6, .display-6 { font-size: 1rem; }
+b { color: #ff8602; }
+strong { font-weight: 700; color: #ff8602; }
+hr { border: 0; width: 100%; height: 1px; background: #eee; margin: 0; }
+pre { font-weight: 400; margin-bottom: 5rem; }
+
+/* NotoSans */
+.noto-sans { font-family: 'Noto Sans', sans-serif; }
+.noto-sans-cjk-sc { font-family: 'Noto Sans CJK SC', sans-serif; }
+.noto-sans-cjk-tc { font-family: 'Noto Sans CJK TC', sans-serif; }
+.noto-sans-cjk-jp { font-family: 'Noto Sans CJK JP', sans-serif; }
+.noto-sans-cjk-kr { font-family: 'Noto Sans CJK KR', sans-serif; }
+
+/* NotoSerif */
+.noto-serif { font-family: 'Noto Serif', serif; }
+.noto-serif-cjk-sc { font-family: 'Noto Serif CJK SC', serif; }
+.noto-serif-cjk-tc { font-family: 'Noto Serif CJK TC', serif; }
+.noto-serif-cjk-jp { font-family: 'Noto Serif CJK JP', serif; }
+.noto-serif-cjk-kr { font-family: 'Noto Serif CJK KR', serif; }
+
+/* display */
+.display-thin { font-size: 1rem; font-weight: 100; }
+.display-light { font-size: 1.5rem; font-weight: 300; }
+.display-regular { font-size: 2rem; font-weight: 400; }
+.display-medium { font-size: 2.5rem; font-weight: 500; }
+.display-bold { font-size: 2rem; font-weight: 700; }
+.display-black { font-size: 3.5rem; font-weight: 900; }
+
+/* navigation */
+.site-header { position: fixed; top: 0; left: 0; width: 100%; background: #fff; border-bottom: 1px solid #eee; }
+.site-title { font-size: 2rem; float: left; padding: 15px 0; font-weight: 900; }
+.site-navigation { float: right; margin-right: -10px; }
+.site-menu { }
+.site-menu:after { content: ""; display: table; clear: both; }
+.site-menu li { float: left; }
+.site-menu li.mobile-bar { display: none; width: 100%; height: 1px; background: #eee; }
+.site-menu a { display: block; padding: 15px 10px; }
+
+/* menu-bottom */
+.site-menu-button { display: none; width: 30px; height: 30px; position: fixed; top: 10px; right: 10px; z-index: 1001; }
+.site-menu-button .bar { margin: 0 auto; position: relative; top: 12px; }
+.site-menu-button .bar-1, .site-menu-button .bar-3 { position: absolute; content: ''; }
+.site-menu-button .bar, .site-menu-button .bar-1, .site-menu-button .bar-3 { width: 30px; height: 6px; background-color: #000; display: block; }
+.site-menu-button .bar-1 { margin-top: -10px; }
+.site-menu-button .bar-3 { margin-top: 10px; }
+
+/* menu-bottom animation */
+.site-menu-button .bar { -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -o-transition-duration: 0s; transition-duration: 0s; -webkit-transition-delay: 0.2s; -moz-transition-delay: 0.2s; -o-transition-delay: 0.2s; transition-delay: 0.2s; }
+.site-menu-button .bar-1, .site-menu-button .bar-3 { -webkit-transition-property: margin, -webkit-transform; transition-property: margin, -webkit-transform; -o-transition-property: margin, -o-transform; -moz-transition-property: margin, transform, -moz-transform; transition-property: margin, transform; transition-property: margin, transform, -webkit-transform, -moz-transform, -o-transform; -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; transition-duration: 0.2s; -webkit-transition-delay: 0.2s, 0s; -moz-transition-delay: 0.2s, 0s; -o-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s; }
+.site-menu-open .site-menu-button .bar-2 { background-color: rgba(0, 0, 0, 0.0); -webkit-transition-delay: 0.2s; -moz-transition-delay: 0.2s; -o-transition-delay: 0.2s; transition-delay: 0.2s; }
+.site-menu-open .site-menu-button .bar-1 { margin-top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transition-delay: 0s, 0.2s; -moz-transition-delay: 0s, 0.2s; -o-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s; }
+.site-menu-open .site-menu-button .bar-3 { margin-top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transition-delay: 0s, 0.2s; -moz-transition-delay: 0s, 0.2s; -o-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s; }
+
+/* hero */
+.hero-content { min-height: 100vh; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -webkit-justify-content: center; -moz-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-align-content: center; -ms-flex-line-pack: center; align-content: center; }
+.hero-heading { }
+.hero-description { margin-bottom: 3rem; }
+.hero-description span { word-break: break-all; }
+
+/* section */
+section { padding: 6rem 0; min-height: 100vh; display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -webkit-justify-content: center; -moz-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-align-content: center; -ms-flex-line-pack: center; align-content: center; background: #fff; }
+section:nth-of-type(odd) { background: #f6f6f6; }
+.section-heading { }
+.section-description { margin-bottom: 3rem; text-align: center; }
+.section-description:not(:empty) { }
+
+/* table */
+.responsive-table { overflow-x: auto; }
+.table { width: 620px; white-space: nowrap; margin: auto; text-align: center; }
+.table th, .table td { padding: 10px; }
+.table th { font-weight: 700; }
+.table th:first-child { border-right: 1px solid #444; }
+.table td { }
+.table thead th { border-top: 2px solid #444; border-bottom: 2px solid #444; }
+.table tbody th, .table tbody td { border-bottom: 1px solid #444; }
+.table tbody tr:last-child th, .table tbody tr:last-child td { font-weight: 700; border-top: 2px solid #444; border-bottom: 2px solid #444; }
+.table tbody th { }
+.table tbody td { }
+
+/* footer */
+footer { text-align: center; padding: 15px 0; border-top: 1px solid #eee; font-size: 1.2rem; }
