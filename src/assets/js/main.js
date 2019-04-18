@@ -28,7 +28,7 @@
 
         $('#download a').on('click',function(){
             var split = $(this).attr('href').split('/');
-            var filename = split[split.length-1];
+            var filename = split[split.length-1].replace('?raw=true','');
             gtag('event', 'ZIP', {
               'event_category': 'Download',
               'event_label': filename,
