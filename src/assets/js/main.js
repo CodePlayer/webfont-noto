@@ -27,7 +27,8 @@
     Starter.Main.tracking = function() {
 
         $('#download a').on('click',function(){
-            var filename = $(this).attr('href').split('/')[1];
+            var split = $(this).attr('href').split('/');
+            var filename = split[split.length-1];
             gtag('event', 'ZIP', {
               'event_category': 'Download',
               'event_label': filename,

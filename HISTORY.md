@@ -5,6 +5,7 @@
 - Fixed container stylesheet   
 - Edit Download link
 - Fixed file path
+- Fixed filename in tracking code
 
 
 ## v1.0.0   
