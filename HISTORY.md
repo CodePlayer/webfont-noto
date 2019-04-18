@@ -8,6 +8,7 @@
 - Fixed filename in tracking code
 - Add license
 - Add release
+- Updated release link
 
 
 ## v1.0.0   
