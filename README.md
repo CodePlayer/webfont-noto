@@ -24,11 +24,7 @@ o
 |           `-- subset
 |               |-- font-slim
 |               `-- font-standard
-|-- fileinfo.md
-|-- HOSTORY.md
-|-- LICENSE
-|-- README.md
-`-- screenshot.png
+`-- release
 ```
 
 
