@@ -3,7 +3,7 @@
 ## v1.0.1   
 - Edit typo   
 - Fixed container stylesheet   
-- Edit Download link
+- Updated Download link
 - Fixed file path
 - Fixed filename in tracking code
 
