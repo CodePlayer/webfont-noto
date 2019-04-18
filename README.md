@@ -119,8 +119,8 @@ font-family: 'Noto Sans CJK JP', serif;
 | font-weight | NotoSans           | NotoSansCJK | NotoSerif  | NotoSerifCJK |
 |-------------|--------------------|-------------|------------|--------------|
 | 100         | Thin               | Thin        | Thin       | -            |
-| 200         | Light / ExtraLight | Light       | ExtraLight | ExtraLight   |
-| 300         | DemiLight          | DemiLight   | Light      | Light        |
+| 200         | ExtraLight         | Light       | ExtraLight | ExtraLight   |
+| 300         | Light              | DemiLight   | Light      | Light        |
 | 400         | Regular            | Regular     | Regular    | Regular      |
 | 500         | Medium             | Medium      | Medium     | Medium       |
 | 600         | SemiBold           | -           | SemiBold   | SemiBold     |
