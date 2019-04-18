@@ -130,7 +130,6 @@ font-family: 'Noto Sans CJK JP', serif;
 ```
 
 ## Download   
-```
 | Font              | Slim                                                                                 | Standard                                                                                 |
 |-------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | Noto Sans         | [Download](/krescentmoon/webfont-noto/archive/v1.0.0-NotoSans-unhinted-slim.zip)     | -                                                                                        |
@@ -143,7 +142,6 @@ font-family: 'Noto Sans CJK JP', serif;
 | Noto Serif CJK TC | [Download](/krescentmoon/webfont-noto/archive/v1.0.0-NotoSerifCJKtc-hinted-slim.zip) | [Download](/krescentmoon/webfont-noto/archive/v1.0.0-NotoSerifCJKtc-hinted-standard.zip) |
 | Noto Serif CJK JP | -                                                                                    | [Download](/krescentmoon/webfont-noto/archive/v1.0.0-NotoSerifCJKjp-hinted-standard.zip) |
 | Noto Serif CJK KR | [Download](/krescentmoon/webfont-noto/archive/v1.0.0-NotoSerifCJKkr-hinted-slim.zip) | [Download](/krescentmoon/webfont-noto/archive/v1.0.0-NotoSerifCJKkr-hinted-standard.zip) |
-```
 
 
 ## License   
