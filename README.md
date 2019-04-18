@@ -126,17 +126,17 @@ font-family: 'Noto Sans CJK JP', serif;
 ```
 
 ## Download   
-| Font                  | Slim                                               | Standard                                               |
-|-----------------------|----------------------------------------------------|--------------------------------------------------------|
-| NotoSans-unhinted     | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSans-unhinted-slim.zip)     | -                                                      |
+| Font                  | Slim                                                                                     | Standard                                                                                     |
+|-----------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| NotoSans-unhinted     | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSans-unhinted-slim.zip)     | -                                                                                            |
 | NotoSansCJKsc-hinted  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKsc-hinted-slim.zip)  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKsc-hinted-standard.zip)  |
 | NotoSansCJKtc-hinted  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKtc-hinted-slim.zip)  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKtc-hinted-standard.zip)  |
-| NotoSansCJKjp-hinted  | -                                                  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKjp-hinted-standard.zip)  |
+| NotoSansCJKjp-hinted  | -                                                                                        | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKjp-hinted-standard.zip)  |
 | NotoSansCJKkr-hinted  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKkr-hinted-slim.zip)  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSansCJKkr-hinted-standard.zip)  |
-| NotoSerif-unhinted    | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerif-unhinted-slim.zip)    | -                                                      |
+| NotoSerif-unhinted    | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerif-unhinted-slim.zip)    | -                                                                                            |
 | NotoSerifCJKsc-hinted | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKsc-hinted-slim.zip) | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKsc-hinted-standard.zip) |
 | NotoSerifCJKtc-hinted | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKtc-hinted-slim.zip) | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKtc-hinted-standard.zip) |
-| NotoSerifCJKjp-hinted | -                                                  | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKjp-hinted-standard.zip) |
+| NotoSerifCJKjp-hinted | -                                                                                        | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKjp-hinted-standard.zip) |
 | NotoSerifCJKkr-hinted | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKkr-hinted-slim.zip) | [Download](/krescentmoon/webfont-noto/raw/master/release/NotoSerifCJKkr-hinted-standard.zip) |
 
 
