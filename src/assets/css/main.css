@@ -61,15 +61,13 @@ pre { font-weight: 400; margin-bottom: 5rem; }
 .site-menu-open .site-menu-button .bar-3 { margin-top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transition-delay: 0s, 0.2s; -moz-transition-delay: 0s, 0.2s; -o-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s; }
 
 /* hero */
-.hero-content { display: table; table-layout: fixed; width: 100%; height: 100vh; }
-.hero-content > .container { display: table-cell; vertical-align: middle; }
+.hero-content { }
 .hero-heading { }
 .hero-description { margin-bottom: 3rem; }
 .hero-description span { word-break: break-all; }
 
 /* section */
-section { display: table; table-layout: fixed; width: 100%; padding: 6rem 0; height: 100vh; background: #fff; }
-section > .container { display: table-cell; vertical-align: middle; }
+section { padding: 6rem 0; background: #fff; }
 section:nth-of-type(odd) { background: #f6f6f6; }
 section:nth-last-of-type(1) { padding-bottom: 0; }
 .section-heading { }
