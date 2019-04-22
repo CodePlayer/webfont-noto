@@ -9,7 +9,7 @@ input, textarea, button, select, option, optgroup { -webkit-box-sizing: border-b
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
-html { font-size: 62.5%; line-height: 1; color:#222;}
+html { font-size: 62.5%; line-height: 1; color: #222; }
 body { font-size: 1.6rem; line-height: 1.6; }
 ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
@@ -36,7 +36,7 @@ img { max-width: 100%; height: auto; }
 ::selection { background: #FFDF01; background: rgba(255, 223, 1, 0.3); }
 
 /* Link */
-a { text-decoration: none; word-break: break-all; color:#222; }
+a { text-decoration: none; word-break: break-all; color: #222; }
 a:hover, a:focus, a:active { outline: 0; color: #ffb302; text-decoration: underline; }
 
 /* Disabled Link */
@@ -57,7 +57,12 @@ a:hover, a:focus, a:active { outline: 0; color: #ffb302; text-decoration: underl
 .ir-phark { overflow: hidden; white-space: nowrap; text-indent: -9999px; }
 
 /* Vertical alignment */
-.valign-parent { position: relative; }
-.valign-top { position: absolute; top: 0; left: 50%; -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); transform: translate(-50%, 0); }
-.valign-center { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
-.valign-bottom { position: absolute; bottom: 0; left: 50%; -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+
+/*
+.vertical-align-parent { position: relative; }
+.vertical-align-top { width:100%;position: absolute; top: 0; left: 50%; -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+.vertical-align-center { width:100%;position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.vertical-align-bottom { width:100%;position: absolute; bottom: 0; left: 50%; -webkit-transform: translate(-50%, 0); -moz-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+*/
+.vertical-align-parent { display: table; table-layout: fixed; }
+.vertical-align-center { display: table-cell; vertical-align: middle; }

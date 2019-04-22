@@ -1,5 +1,9 @@
 # History   
 
+## v1.0.2   
+- Updated Site: Cross Browser   
+
+
 ## v1.0.1   
 - Edit typo   
 - Fixed container stylesheet   

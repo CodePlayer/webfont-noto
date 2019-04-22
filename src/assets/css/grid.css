@@ -3,7 +3,6 @@
 .container:after { content: ""; display: table; clear: both; }
 
 /* common */
-.columns-wrapper { overflow: hidden; }
 .columns { width: 100%; }
 .columns:after { content: ''; display: table; clear: both; }
 .column, [class*=column] { display: block; float: left; min-width: 1px; min-height: 1px; }

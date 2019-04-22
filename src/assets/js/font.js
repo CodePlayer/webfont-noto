@@ -2,7 +2,7 @@
   "use strict";
   // once cached, the css file is stored on the client forever unless
   // the URL below is changed. Any change will invalidate the cache
-  var css_href = 'src/assets/css/font.min.css';
+  var css_href = 'src/assets/css/font.css';
   // a simple event handler wrapper
   function on(el, ev, callback) {
     if (el.addEventListener) {
