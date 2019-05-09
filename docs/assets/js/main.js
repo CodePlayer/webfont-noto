@@ -30,7 +30,7 @@
             var split = $(this).attr('href').split('/');
             var filename = split[split.length-1].replace('?raw=true','');
             gtag('event', 'ZIP', {
-              'event_category': 'Download',
+              'event_category': 'webfont-noto',
               'event_label': filename,
               'value': 1
             });
