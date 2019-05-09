@@ -1,0 +1,64 @@
+/* Noto Sans CJK JP */
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 400;
+    src: local('☺'),
+         url('NotoSansCJKjp-Regular.woff2') format('woff2'),
+         url('NotoSansCJKjp-Regular.woff') format('woff'),
+         url('NotoSansCJKjp-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 100;
+    src: local('☺'),
+         url('NotoSansCJKjp-Thin.woff2') format('woff2'),
+         url('NotoSansCJKjp-Thin.woff') format('woff'),
+         url('NotoSansCJKjp-Thin.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 200;
+    src: local('☺'),
+         url('NotoSansCJKjp-Light.woff2') format('woff2'),
+         url('NotoSansCJKjp-Light.woff') format('woff'),
+         url('NotoSansCJKjp-Light.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 300;
+    src: local('☺'),
+         url('NotoSansCJKjp-DemiLight.woff2') format('woff2'),
+         url('NotoSansCJKjp-DemiLight.woff') format('woff'),
+         url('NotoSansCJKjp-DemiLight.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 500;
+    src: local('☺'),
+         url('NotoSansCJKjp-Medium.woff2') format('woff2'),
+         url('NotoSansCJKjp-Medium.woff') format('woff'),
+         url('NotoSansCJKjp-Medium.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    src: local('☺'),
+         url('NotoSansCJKjp-Bold.woff2') format('woff2'),
+         url('NotoSansCJKjp-Bold.woff') format('woff'),
+         url('NotoSansCJKjp-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 900;
+    src: local('☺'),
+         url('NotoSansCJKjp-Black.woff2') format('woff2'),
+         url('NotoSansCJKjp-Black.woff') format('woff'),
+         url('NotoSansCJKjp-Black.otf') format('opentype');
+}

@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" prefix="og: http://ogp.me/ns#">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
     <!-- Do not change the meta tag above. -->
     <!-- X-UA-Compatible does not work in Explorer if http-equiv is not directly below it. -->
 
+    <!-- The robots meta tag -->
+    <!-- https://developers.google.com/search/reference/robots_meta_tag -->
+    <meta name="robots" content="index,follow" />
+    <meta name="google-site-verification" content="noxuuZPkglSXrTXLFf3k-7s71ERA_WJ1PuXOqSHb0M4" />
+
     <!-- SEO -->
     <title>Noto Subset Font</title>
     <meta name="description" content="Noto Sans CJK and Serif CJK subset fonts (sc, tc, jp, and kr). The tag of the Noto font is v2017-06-01." />
+    <meta name="keywords" content="webfont,font,noto,noto-sans,noto-sans-cjk,noto-serif,noto-serif-cjk" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico" />
@@ -36,15 +42,15 @@
     <meta property="article:author" content="Krescentmoon" />
 
     <!-- Font -->
-    <script src="assets/js/font.min.js"></script>
+    <script src="assets/js/font.js"></script>
     <noscript>
         <link rel="stylesheet" href="assets/css/font.css" />
     </noscript>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/vendor/highlightjs/v9.15.6/styles/atom-one-dark.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/grid-system.min.css" />
+    <link rel="stylesheet" href="assets/vendor/highlightjs/v9.15.6/styles/atom-one-dark.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
@@ -55,30 +61,31 @@
     <![endif]-->
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <meta name="google-site-verification" content="noxuuZPkglSXrTXLFf3k-7s71ERA_WJ1PuXOqSHb0M4" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135917862-12"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135917862-14"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-135917862-12');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135917862-14');
     </script>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebPage">
 <!--[if lt IE 9]>
 <noscript>
-    <div class="message-alert message-noscript-warning" role="alert">
+    <div class="message-alert message-noscript-warning" role="alert" style="padding:10px;">
         <strong>This web page requires JavaScript to be enabled.</strong><br/>
         JavaScript is an object-oriented computer programming language
         commonly used to create interactive effects within web browsers.
     </div>
 </noscript>
-<div class="message-alert message-browser-upgrade" role="alert">
+<div class="message-alert message-browser-upgrade" role="alert" style="padding:10px;">
     You are using an <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.
 </div>
 <![endif]-->
 <div id="page" class="site">
-    <header id="masthead" class="site-header">
+
+    <header id="masthead" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
         <div class="container">
             <h1 class="site-title">
                 <a href="#content">Noto Subset</a>
@@ -96,14 +103,17 @@
             </nav>
         </div>
     </header>
+
     <div id="content" class="site-content">
+        
         <div id="page-menu-button" class="site-menu-button">
             <span class="bar bar-1"></span>
             <span class="bar bar-2"></span>
             <span class="bar bar-3"></span>
         </div>
-        <div class="hero-content valign-parent full-height">
-            <div class="hero-content-inner valign-middle">
+
+        <div class="hero-content aligns vh-100">
+            <div class="hero-content-inner align-middle">
                 <div class="container">
                     <h2 class="hero-heading">Noto Subset</h2>
                     <p class="hero-description">
@@ -117,12 +127,13 @@
                 </div><!-- .container -->
             </div><!-- .hero-content-inner -->
         </div>
+
         <div class="main-content">
             <div class="primary content-area">
                 <main id="main" class="site-main">
 
-                    <section id="simplified-chinese" class="valign-parent full-height" lang="zh-Hans">
-                        <div class="section-inner valign-middle">
+                    <section id="simplified-chinese" class="aligns vh-100" lang="zh-Hans">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h3 class="section-heading display-2">Simplified Chinese</h3>
                                 <p class="section-description">Simplified Chinese characters are standardized Chinese characters prescribed in the Table of <br>
@@ -141,8 +152,8 @@
                         </div><!-- .section-inner -->
                     </section>
 
-                    <section id="traditional-chinese" class="valign-parent full-height" lang="zh-Hant">
-                        <div class="section-inner valign-middle">
+                    <section id="traditional-chinese" class="aligns vh-100" lang="zh-Hant">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h3 class="section-heading display-2">Traditional Chinese</h3>
                                 <p class="section-description">Traditional Chinese characters are currently used in <b>Hong Kong</b>, <b>Macau</b>, and <b>the Republic of China (Taiwan).</b></p>
@@ -160,8 +171,8 @@
                         </div><!-- .section-inner -->
                     </section>
 
-                    <section id="japanese" class="valign-parent full-height" lang="ja">
-                        <div class="section-inner valign-middle">
+                    <section id="japanese" class="aligns vh-100" lang="ja">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h3 class="section-heading display-2">Japanese</h3>
                                 <p class="section-description"></p>
@@ -179,8 +190,8 @@
                         </div><!-- .section-inner -->
                     </section>
 
-                    <section id="korean" class="valign-parent full-height" lang="ko">
-                        <div class="section-inner valign-middle">
+                    <section id="korean" class="aligns vh-100" lang="ko">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h3 class="section-heading display-2">Korean</h3>
                                 <p class="section-description"></p>
@@ -198,8 +209,8 @@
                         </div><!-- .section-inner -->
                     </section>
 
-                    <section id="english" class="valign-parent full-height" lang="en-US">
-                        <div class="section-inner valign-middle">
+                    <section id="english" class="aligns vh-100" lang="en-US">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h3 class="section-heading display-2">English</h3>
                                 <p class="section-description"></p>
@@ -219,8 +230,8 @@
 
                     <hr>
 
-                    <section id="usage" class="valign-parent full-height" lang="en-US">
-                        <div class="section-inner valign-middle">
+                    <section id="usage" class="aligns vh-100" lang="en-US">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h2 class="section-heading">Usage</h2>
                                 <p class="section-description">
@@ -230,28 +241,28 @@
                                     <div class="column">
                                         <h3 class="sub-heading">Installation</h3>
 
-    <h4 class="sub-heading">Install</h4>                                    
-    <pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;file/path/font.css&quot; /&gt;
-    </code></pre>
+<h4 class="sub-heading">Install</h4>                                    
+<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;file/path/font.css&quot; /&gt;
+</code></pre>
 
-    <h4 class="sub-heading">CSS font-face property</h4>
-    <pre><code class="css">@font-face{
-        font-family: 'Noto Sans CJK {JP, KR, SC, TC}';
-        font-style: normal;
-        font-weight: 400;
-        src: local('☺'),
-             url('NotoSansCJK{jp, kr, sc, tc}.woff2') format('woff2'),
-             url('NotoSansCJK{jp, kr, sc, tc}.woff') format('woff'),
-             url('NotoSansCJK{jp, kr, sc, tc}.otf') format('opentype');
-    }
-    </code></pre>
+<h4 class="sub-heading">CSS font-face property</h4>
+<pre><code class="css">@font-face{
+    font-family: 'Noto Sans CJK {JP, KR, SC, TC}';
+    font-style: normal;
+    font-weight: 400;
+    src: local('☺'),
+         url('NotoSansCJK{jp, kr, sc, tc}.woff2') format('woff2'),
+         url('NotoSansCJK{jp, kr, sc, tc}.woff') format('woff'),
+         url('NotoSansCJK{jp, kr, sc, tc}.otf') format('opentype');
+}
+</code></pre>
 
-    <h4 class="sub-heading">CSS font-family property</h4>
-    <pre><code class="css">* { 
-        font-family: 'Noto Sans CJK {JP, KR, SC, TC}', sans-serif;
-        font-family: 'Noto Serif CJK {JP, KR, SC, TC}', serif;
-    }
-    </code></pre>
+<h4 class="sub-heading">CSS font-family property</h4>
+<pre><code class="css">* { 
+    font-family: 'Noto Sans CJK {JP, KR, SC, TC}', sans-serif;
+    font-family: 'Noto Serif CJK {JP, KR, SC, TC}', serif;
+}
+</code></pre>
                                     </div>
                                     <div class="column">
                                         <h3 class="sub-heading">CSS property</h3>
@@ -283,8 +294,8 @@
 
                     <hr>
 
-                    <section id="glyphs" class="valign-parent full-height" lang="en-US">
-                        <div class="section-inner valign-middle">
+                    <section id="glyphs" class="aligns vh-100" lang="en-US">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h2 class="section-heading">Glyphs</h2>
                                 <p class="section-description"></p>
@@ -336,8 +347,8 @@
                         </div><!-- .section-inner -->
                     </section>
 
-                    <section id="filesize" class="valign-parent full-height" lang="en-US">
-                        <div class="section-inner valign-middle">
+                    <section id="filesize" class="aligns vh-100" lang="en-US">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h2 class="section-heading">File Size</h2>
                                 <p class="section-description"></p>
@@ -391,17 +402,21 @@
 
                     <hr>
                     
-                    <section id="download" class="valign-parent full-height" lang="en-US">
-                        <div class="section-inner valign-middle">
+                    <section id="download" class="aligns vh-100" lang="en-US">
+                        <div class="section-inner align-middle">
                             <div class="container">
                                 <h2 class="section-heading">Download</h2>
                                 <div class="columns column-count-1 gutter-20">
                                     <div class="column">
                                         <h3 class="sub-heading screen-reader-text">Noto Subset Font</h3>
                                         <div class="responsive-table">
-                                            <table class="table">
+                                            <table class="table" style="max-width:640px;">
                                                 <thead>
-                                                    <tr><th scope="col">Font</th><th scope="col">Slim</th><th scope="col">Standard</th></tr>
+                                                    <tr>
+                                                        <th scope="col" class="cell-4">Font</th>
+                                                        <th scope="col">Slim</th>
+                                                        <th scope="col">Standard</th>
+                                                    </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
@@ -463,10 +478,10 @@
                         </div><!-- .section-inner -->
                     </section>
 
-                    <section id="github" class="valign-parent full-height" lang="en-US">
-                        <div class="section-inner valign-middle">
+                    <section id="github" class="aligns vh-100" lang="en-US">
+                        <div class="section-inner align-middle">
                             <div class="container">
-                                <h2 class="section-heading"><a href="https://github.com/krescentmoon/webfont-noto">View on Github</a></h2>
+                                <h2 class="section-heading margin-b0"><a href="https://github.com/krescentmoon/webfont-noto">View on Github</a></h2>
                             </div><!-- .container -->
                         </div><!-- .section-inner -->
                     </section>
@@ -475,10 +490,11 @@
             </div><!-- .primary -->
         </div><!-- .main-content -->
     </div><!-- .content -->
-    <footer id="colophon" class="site-footer">
+
+    <footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
         <div class="container">
             <p class="site-licsnse">Noto Subset fonts are licensed under the SIL Open Font License, Version 1.1.</p>
-            <a href="https://github.com/krescentmoon/webfont-noto/LICENSE" target="_blank">Open Font License</a> | 
+            <a href="LICENSE">Open Font License</a> | 
             <a href="https://github.com/krescentmoon/webfont-noto" target="_blank">View on Github</a> | 
             <a href="https://gitlab.com/krescentmoon/webfont-noto" target="_blank">View on Gitlab</a> |
             <a href="https://bitbucket.org/krescentmoon/webfont-noto" target="_blank">View on Bitbucket</a>
@@ -487,8 +503,9 @@
 
     <!-- script -->
     <script src="assets/vendor/jquery/v3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/jquery/v3.3.1/jquery-migrate.min.js"></script>
     <script src="assets/vendor/highlightjs/v9.15.6/highlight.min.js"></script>
-    <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </div><!-- .site -->
 </body>

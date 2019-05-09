@@ -76,7 +76,8 @@ section:nth-last-of-type(1) { padding-bottom: 0; }
 
 /* table */
 .responsive-table { overflow-x: auto }
-.table { width: 620px; white-space: nowrap; margin: auto; text-align: center }
+.table { width: 100%; white-space: nowrap; margin: auto; text-align: center; caption-side: bottom; }
+.table caption { text-align: right; }
 .table th, .table td { padding: 10px }
 .table th { font-weight: 700 }
 .table th:first-child { border-right: 1px solid #444 }
@@ -84,8 +85,9 @@ section:nth-last-of-type(1) { padding-bottom: 0; }
 .table tbody th, .table tbody td { border-bottom: 1px solid #444 }
 .table.has-total tbody tr:last-child th, .table.has-total tbody tr:last-child td { font-weight: 700; border-top: 2px solid #444; border-bottom: 2px solid #444 }
 
-/* github */
-#github .section-heading{margin:0;}
+/* Fixed: scroll is not working in mobile */
+.aligns { table-layout: fixed; }
+.aligns > div {width:100%;}
 
 /* footer */
-footer { text-align: center; padding: 15px 0; border-top: 1px solid #eee; font-size: 1.2rem; }
+.site-footer { text-align: center; padding: 15px 0; border-top: 1px solid #eee; font-size: 1.2rem; }
