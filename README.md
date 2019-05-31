@@ -7,7 +7,11 @@ Noto Sans CJK and Serif CJK subset fonts (sc, tc, jp, and kr). The tag of the No
 
 
 ## Demo   
-[Demo](https://krescentmoon.github.io/webfont-noto)   
+<https://krescentmoon.github.io/webfont-noto/>   
+
+
+## Github   
+<https://github.com/krescentmoon/webfont-noto/>   
 
 
 ## Diretory Structure   
@@ -140,11 +144,9 @@ font-family: 'Noto Sans CJK JP', serif;
 | NotoSerifCJKkr-hinted | [Download](https://github.com/krescentmoon/webfont-noto/blob/master/release/NotoSerifCJKkr-hinted-slim.zip?raw=true) | [Download](https://github.com/krescentmoon/webfont-noto/blob/master/release/NotoSerifCJKkr-hinted-standard.zip?raw=true) |
 
 
+## Changelog   
+Please see [CHANGELOG](CHANGELOG) for more information what has changed recently.   
+
+
 ## License   
 Noto Subset fonts are licensed under the [SIL OPEN FONT LICENSE](LICENSE), Version 1.1.   
-
-
-## Reference   
-[Google Noto Font](https://www.google.com/get/noto)   
-[Google Noto CJK Font](https://github.com/googlefonts/noto-cjk)   
-[Unicode.org](http://unicode.org)   
