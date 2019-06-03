@@ -1,0 +1,33 @@
+/* Noto Sans CJK SC */
+
+@font-face {
+	font-family: 'Noto Sans CJK SC';
+	font-style: normal;
+	font-weight: 400;
+	font-display: fallback;
+	src: local('☺'), url('NotoSansCJKsc-Regular.woff2') format('woff2'), url('NotoSansCJKsc-Regular.woff') format('woff'), url('NotoSansCJKsc-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans CJK SC';
+	font-style: normal;
+	font-weight: 100;
+	font-display: fallback;
+	src: local('☺'), url('NotoSansCJKsc-Thin.woff2') format('woff2'), url('NotoSansCJKsc-Thin.woff') format('woff'), url('NotoSansCJKsc-Thin.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans CJK SC';
+	font-style: normal;
+	font-weight: 500;
+	font-display: fallback;
+	src: local('☺'), url('NotoSansCJKsc-Medium.woff2') format('woff2'), url('NotoSansCJKsc-Medium.woff') format('woff'), url('NotoSansCJKsc-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans CJK SC';
+	font-style: normal;
+	font-weight: 700;
+	font-display: fallback;
+	src: local('☺'), url('NotoSansCJKsc-Bold.woff2') format('woff2'), url('NotoSansCJKsc-Bold.woff') format('woff'), url('NotoSansCJKsc-Bold.otf') format('opentype');
+}
